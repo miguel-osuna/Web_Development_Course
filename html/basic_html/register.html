@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Please Register</title>
+  </head>
+  <body>
+    <!-- Mensaje de bienvenida -->
+    <div>
+      <strong>
+        <h1>Welcome, New User.</h1>
+      </strong>
+      <img
+        src="https://d3jh33bzyw1wep.cloudfront.net/s3/W1siZiIsIjIwMTcvMTAvMzEvMTEvMjgvMjIvNjA1L3dlbGNvbWUgaW1hZ2UgMi5qcGciXSxbInAiLCJ0aHVtYiIsIjgwMHg0NTAjIl1d"
+        alt="Welcome user"
+        width="480"
+        height="480"
+      /><br />
+
+      <a href="index.html" target="_self"
+        >If you want to return to the index, press this link</a
+      >
+    </div>
+
+    <div>
+      <!-- Formulario para registro -->
+      <form>
+        Please, enter your information<br />
+        First Name: <input type="text" name="firstname" required /><br />
+        Last Name: <input type="text" name="secondname" required /><br />
+        Date Of Birth: <input type="date" name="birth" required /><br />
+        Email: <input type="email" name="email" required /><br />
+        Password
+        <input type="password" name="password" minlength="5" required /><br />
+        Gender: <br />
+        <input type="radio" name="gender" value="Male" />Male<br />
+        <input type="radio" name="gender" value="Female" />Female<br />
+        <input type="radio" name="gender" value="Other" />Other<br />
+        Pets: <br />
+        <input type="checkbox" name="Cats" /> Cats<br />
+        <input type="checkbox" name="Dogs" /> Dogs<br />
+        <input type="checkbox" name="Turtles" /> Turtles<br />
+        <input type="checkbox" name="Sharks" /> Sharks<br />
+        <!--Se incluye el atributo de value para poder mandar su valor directamente-->
+        Cars: <br />
+        <select name="cars" required multiple>
+          <option value="Toyota">Toyota</option>
+          <option value="Nissan">Nissan</option>
+          <option value="Subaru">Subaru</option>
+          <option value="Honda">Honda</option> </select
+        ><br />
+        <input type="submit" value="Firmale prro" />
+        <input type="reset" value="Clean" /><br />
+      </form>
+    </div>
+  </body>
+</html>
+
+<!-- 
+  firstname=John
+  &secondname=Doe
+  &birth=2019-09-12
+  &email=mike9702%40hotmail.com
+  &password=afgas
+  &gender=Male
+  &Cats=on
+  &Dogs=on
+  &cars=Nissan
+  &cars=Subaru -->
